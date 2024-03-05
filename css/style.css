@@ -49,6 +49,7 @@ header {
     padding-left: 4%;
     background: #F7DBC6;
     overflow-x: auto;
+    overflow-y: hidden;
 }
 
 nav {
@@ -558,6 +559,14 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+    .form {
+        padding-left: 4%;
+    }
+
+    .formWrap .message textarea {
+        width: 93%;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: 1fr;
